@@ -5,3 +5,14 @@
 
 while문과 if문을 활용하여, 1,000보다 작은 자연수 중 2 또는 3의 배수의 합을 출력하는 프로그램을 써 보세요.
 
+i = 0
+count = 0
+
+while i < 1000:
+    if i%2 == 0 or i%3 == 0:
+        count = count + i
+    i += 1
+
+print(count)
+
+333167
